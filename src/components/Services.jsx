@@ -86,7 +86,7 @@ const Services = () => {
 
   return (
     <section
-      id="service"
+      id="services"
       className="py-20 bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden"
       style={{
         backgroundImage: `url(${etudiant})`,
@@ -193,12 +193,12 @@ const Services = () => {
         </div>
 
         {/* Call to Action */}
-        {/* <div className="text-center mt-16">
+        <div className="text-center mt-16">
           <div className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
             Découvrir toutes nos formations
             {/* <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" /> */}
-        {/* </div>
-        </div> */}
+          </div>
+        </div>
       </div>
     </section>
   );
