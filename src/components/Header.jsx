@@ -19,7 +19,8 @@ function Header() {
     { name: "Accueil", href: "#" },
     { name: "A propos", href: "#apropos" },
     { name: "Services", href: "#service" },
-    { name: "Témoignages", href: "#temoignage" },
+    { name: "Equipes", href: "#equipe" },
+    { name: "Partenaires", href: "#partenaire" },
   ];
 
   return (
