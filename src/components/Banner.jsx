@@ -20,7 +20,7 @@ function Banner() {
   }, [backgroundImages.length]);
 
   return (
-    <section className="relative min-h-screen overflow-hidden">
+    <section className="relative h-[600px] overflow-hidden">
       {/* Slider d'images de fond */}
       <div className="absolute inset-0">
         {backgroundImages.map((image, index) => (
